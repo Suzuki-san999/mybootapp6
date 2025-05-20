@@ -15,26 +15,26 @@
             <table>
                 <tr>
                     <td>ID:</td>
-                    <td><input type=“text” name=“id” /></td>
+                    <td><input type=“text” name="id"></td>
                 </tr>
                 <tr>
                     <td>タイトル:</td>
-                    <td><input type="text" name="title" /></td>
+                    <td><input type="text" name="title"></td>
                 </tr>
                 <tr>
                     <td>著者：</td>
-                    <td><input type=" text" name="writter" /></td>
+                    <td><input type=" text" name="writter"></td>
                 </tr>
                 <tr>
                     <td>出版社：</td>
-                    <td><input type=" text" name="publisher" /></td>
+                    <td><input type=" text" name="publisher"></td>
                 </tr>
                 <tr>
                     <td>価格：</td>
-                    <td><input type=" text" name="price" /></td>
+                    <td><input type=" text" name="price"></td>
                 </tr>
             </table>
-            <input type=" submit" />
+            <input type="submit">
         </form>
     </body>
 
