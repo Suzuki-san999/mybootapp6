@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp12.mybootapp12;
+package jp.te4a.spring.boot.myapp13.mybootapp13;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -10,10 +10,10 @@ import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 
 @Documented
-@Constraint(validatedBy = TestValidator.class)
+@Constraint(validatedBy = WritterValidator.class)
 @Target({ElementType.METHOD,ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface TestValid {
+public @interface Writter {
  String ok();
  String message() default "東北タロウしか許可していません。";
  // Classオブジェクトを得る（戻り値とする）メソッドgroups()

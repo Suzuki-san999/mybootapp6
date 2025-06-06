@@ -1,13 +1,13 @@
-package jp.te4a.spring.boot.myapp12.mybootapp12;
+package jp.te4a.spring.boot.myapp13.mybootapp13;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
-public class TestValidator implements ConstraintValidator<TestValid, String> {
+public class WritterValidator implements ConstraintValidator<Writter, String> {
     String okValue;
 
     @Override
-    public void initialize(TestValid nv) {
+    public void initialize(Writter nv) {
         this.okValue = nv.ok();
     }
 
